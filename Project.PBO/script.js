@@ -84,8 +84,8 @@ const productSpecs = {
     },
 
     //Spesifikasi Suzuki
-     //1
-     "Suzuki GSX-R150": {
+    //1
+    "Suzuki GSX-R150": {
         surat: "Lengkap",
         pajak: "Hidup",
         cc: "150cc",
@@ -126,8 +126,8 @@ const productSpecs = {
     },
 
     //Spesifikasi Vespa
-     //1
-     "Vespa Sprint 150 ABS": {
+    //1
+    "Vespa Sprint 150 ABS": {
         surat: "Lengkap",
         pajak: "Hidup",
         cc: "150cc",
@@ -166,7 +166,7 @@ const productSpecs = {
         warna: "Green Amabile",
         Tranmisi: "Otomatis"
     },
-    
+
 
     //Spesifikasi Kawasaki
     //1
@@ -297,7 +297,12 @@ function closeSpecs() {
 
 function addToCart(product, price) {
     cart.push({ product, price });
-    alert(`${product} telah ditambahkan ke keranjang.`);
+    Swal.fire({
+        title: "Berhasil!",
+        text: `${product} telah ditambahkan ke keranjang.`,
+        icon: "success",
+        confirmButtonText: "OK"
+    });
 }
 
 function renderCart() {
@@ -323,16 +328,45 @@ function renderCart() {
 }
 
 function removeFromCart(index) {
-    cart.splice(index, 1);
-    renderCart();
+    Swal.fire({
+        title: "Yakin ingin menghapus?",
+        text: "Item ini akan dihapus dari keranjang.",
+        icon: "warning",
+        showCancelButton: true,
+        confirmButtonColor: "#3085d6",
+        cancelButtonColor: "#d33",
+        confirmButtonText: "Ya, hapus!"
+    }).then((result) => {
+        if (result.isConfirmed) {
+            cart.splice(index, 1);
+            renderCart();
+            Swal.fire({
+                title: "Berhasil!",
+                text: "Item berhasil dihapus dari keranjang.",
+                icon: "success",
+                confirmButtonText: "OK"
+            });
+        }
+    });
 }
 
 function checkout() {
     if (cart.length === 0) {
-        alert("Keranjang kosong. Tambahkan produk untuk melanjutkan.");
+        Swal.fire({
+            title: "Keranjang kosong",
+            text: "Tambahkan produk untuk melanjutkan.",
+            icon: "info",
+            confirmButtonText: "OK"
+        });
         return;
     }
-    alert("Checkout berhasil. Terima kasih atas pembelian Anda di Zull Motor!");
+
+    Swal.fire({
+        title: "Checkout Berhasil!",
+        text: "Terima kasih atas pembelian Anda di Zull Motor!",
+        icon: "success",
+        confirmButtonText: "OK"
+    });
     cart = [];
     renderCart();
 }
