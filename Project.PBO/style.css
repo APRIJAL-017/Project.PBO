@@ -33,11 +33,11 @@ header h2 {
 }
 
 header h1 {
-    margin-bottom: 20px;
+    margin-bottom: 20px; /* Memberikan jarak di bawah judul utama */
 }
 
 header nav {
-    margin-top: 20px;
+    margin-top: 20px; /* Memberikan jarak di atas tombol navigasi */
 }
 
 
