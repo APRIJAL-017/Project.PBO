@@ -6,19 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Toko Motor</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <div id="splash-screen">
         <h1>Selamat Datang</h1>
-        <p>Temukan Motor terbaik hanya untuk Anda</p>
+        <p>Pilih motor terbaik untuk setiap petualangan Anda.</p>
         <button onclick="showMainSection()">Lihat Produk</button>
     </div>
 
     <main id="main-section">
         <header>
+            <!-- Logo -->
+            <div style="display: flex; align-items: center; justify-content: flex-start; margin-top: 20px;">
+                <img src="./Gambar/LOGO.png" alt="Logo Zull Motor"
+                    class="responsive-logo"
+                    style="width: 50px; height: 50px; margin-right: 5px; border: 2px solid #000; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);">
+            </div>          
+
             <h1>Zull Motor</h1>
-            <h2>Jual Motor Berkualitas Tanpa Batas</h2>
+            <h2>Jual Motor Terbaik untuk Segala Petualangan!</h2>
             <nav>
                 <div style="display: flex; align-items: center; justify-content: flex-end; width: 100%;">
                     <button class="view-cart" onclick="toggleCart()">Lihat Keranjang</button>
@@ -43,7 +51,7 @@
                 <!--Produk Honda-->
                 <!--1-->
                 <div class="product honda">
-                    <img src="./Gambar/CBR250RR..webp" alt="Honda CBR 250RR">
+                    <img src="./Gambar/CBR250RR..webp" alt="Gambar Honda CBR 250RR">
                     <h3>Honda CBR 250RR</h3>
                     <p>Harga: Rp37,205,000</p>
                     <button onclick="addToCart('Honda CBR 250RR', 37205000)">Tambah ke Keranjang</button>
@@ -112,7 +120,7 @@
                     <img src="./Gambar/Yamaha WR155R" alt="Yamaha WR155R">
                     <h3>Yamaha WR155R</h3>
                     <p>Harga: Rp39,055,000</p>
-                    <button onclick="addToCart('Yamaha WR155R', 3055000)">Tambah ke Keranjang</button>
+                    <button onclick="addToCart('Yamaha WR155R', 39055000)">Tambah ke Keranjang</button>
                     <button onclick="showSpecs('Yamaha WR155R')">Lihat Spesifikasi</button>
                 </div>
                 <!--5-->
@@ -196,7 +204,7 @@
                     <img src="./Gambar/Vespa GTS Super Tech 300" alt="Vespa GTS Super Tech 300">
                     <h3>Vespa GTS Super Tech 300</h3>
                     <p>Harga: Rp164,500,000</p>
-                    <button onclick="addToCart('Vespa GTS Super Tech 300', 16450000)">Tambah ke Keranjang</button>
+                    <button onclick="addToCart('Vespa GTS Super Tech 300', 164500000)">Tambah ke Keranjang</button>
                     <button onclick="showSpecs('Vespa GTS Super Tech 300')">Lihat Spesifikasi</button>
                 </div>
                 <!--5-->
@@ -287,8 +295,8 @@
                 <div class="product ktm">
                     <img src="./Gambar/KTM 250 SX-F" alt="KTM 250 SX-F">
                     <h3>KTM 450 SX-F</h3>
-                    <p>Harga: Rp11,700,000</p>
-                    <button onclick="addToCart('KTM 250 SX-F', 11700000)">Tambah ke Keranjang</button>
+                    <p>Harga: Rp10,700,000</p>
+                    <button onclick="addToCart('KTM 250 SX-F', 10700000)">Tambah ke Keranjang</button>
                     <button onclick="showSpecs('KTM 250 SX-F')">Lihat Spesifikasi</button>
                 </div>
             </div>
@@ -315,17 +323,40 @@
         </div>
     </div>
 
-    <div class="social-icon">
-        <a href="https://www.instagram.com/mhmmdaprizal_17/" target="_blank">
-            <img src="./Gambar/instagram.png" alt="Instagram">
-        </a>
-        <a href="https://wa.me/6285320445840" target="_blank">
-            <img src="./Gambar/whatsapp.png" alt="WhatsApp">
-        </a>
-        <a href="https://www.facebook.com/muhamad.afrijal.3914" target="_blank">
-            <img src="./Gambar/facebook.png" alt="Facebook">
-        </a>
-    </div>
+    <footer>
+        <div class="footer-content">
+            <div class="brand-icons">
+                <img src="./Gambar/logoHonda" alt="Honda">
+                <img src="./Gambar/logoVespa" alt="Vespa">
+                <img src="./Gambar/logoKTM" alt="KTM">
+                <img src="./Gambar/logoYamaha" alt="Yamaha">
+                <img src="./Gambar/logoKawasaki" alt="Kawasaki">
+                <img src="./Gambar/logoSuzuki" alt="Suzuki">
+            </div>
+
+            <div class="follow-section">
+                <h4>Follow Me:</h4>
+                <div class="social-icon">
+                    <a href="https://wa.me/6285320445840" target="_blank">
+                        <img src="./Gambar/icons8-whatsapp-94.png" alt="WhatsApp">
+                    </a>
+                    <a href="https://www.instagram.com/mhmmdaprizal_17/" target="_blank">
+                        <img src="./Gambar/icons8-instagram-94.png" alt="Instagram">
+                    </a>
+                    <a href="https://www.facebook.com/muhamad.afrijal.3914" target="_blank">
+                        <img src="./Gambar/icons8-facebook-94.png" alt="Facebook">
+                    </a>
+                    <a href="https://www.tiktok.com/@mhmdaprizal" target="_blank">
+                        <img src="./Gambar/icons8-tiktok-48.png" alt="Tiktok">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="address">
+            <p>Alamat Lengkap: Jl. Impian No. 017, Kota Maju, Depan Markas Iron man, Indonesia :)</p>
+        </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
