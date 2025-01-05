@@ -6,7 +6,7 @@ const productSpecs = {
         pajak: "Hidup",
         cc: "250cc",
         warna: "Hitam Merah",
-        Tranmisi: "Manual, 5-Speed"
+        Transmisi: "Manual, 5-Speed"
     },
     //2
     "CRF150L": {
@@ -14,7 +14,7 @@ const productSpecs = {
         pajak: "Hidup",
         cc: "150cc",
         warna: "Merah Putih",
-        Tranmisi: "Manual, 5-Speed"
+        Transmisi: "Manual, 5-Speed"
     },
     //3
     "CB150R Streetfire": {
@@ -22,7 +22,7 @@ const productSpecs = {
         pajak: "Hidup",
         cc: "150cc",
         warna: "Merah Metalic",
-        Tranmisi: "Manual, 6-Speed"
+        Transmisi: "Manual, 6-Speed"
     },
     //4
     "Beat Deluxe": {
@@ -30,7 +30,7 @@ const productSpecs = {
         pajak: "Hidup",
         cc: "110cc",
         warna: "Biru Dof",
-        Tranmisi: "Otomatis"
+        Transmisi: "Otomatis"
     },
     //5
     "Vario 160": {
@@ -38,7 +38,7 @@ const productSpecs = {
         pajak: "Hidup",
         cc: "160cc",
         warna: "Biru Dof",
-        Tranmisi: "Otomatis"
+        Transmisi: "Otomatis"
     },
 
     //Spesifikasi Yamaha
@@ -48,7 +48,7 @@ const productSpecs = {
         pajak: "Hidup",
         cc: "150cc",
         warna: "Biru Merah",
-        Tranmisi: "Otomatis"
+        Transmisi: "Otomatis"
     },
     //2
     "Yamaha NMAX Neo": {
@@ -56,7 +56,7 @@ const productSpecs = {
         pajak: "Hidup",
         cc: "150cc",
         warna: "Putih",
-        Tranmisi: "Otomatis"
+        Transmisi: "Otomatis"
     },
     //3
     "Yamaha R15M ABS": {
@@ -64,7 +64,7 @@ const productSpecs = {
         pajak: "Hidup",
         cc: "155.09 cc",
         warna: "Hitam Silver",
-        Tranmisi: "Manual, 6-Speed"
+        Transmisi: "Manual, 6-Speed"
     },
     //4
     "Yamaha WR155R": {
@@ -72,7 +72,7 @@ const productSpecs = {
         pajak: "Hidup",
         cc: "155cc",
         warna: "Biru",
-        Tranmisi: "Manual, 6-Speed"
+        Transmisi: "Manual, 6-Speed"
     },
     //5
     "Fazzio Hybrid Neo": {
@@ -80,7 +80,7 @@ const productSpecs = {
         pajak: "Hidup",
         cc: "125cc",
         warna: "Pink Mauve",
-        Tranmisi: "Otomatis"
+        Transmisi: "Otomatis"
     },
 
     //Spesifikasi Suzuki
@@ -90,7 +90,7 @@ const productSpecs = {
         pajak: "Hidup",
         cc: "150cc",
         warna: "Biru ",
-        Tranmisi: "Manual, 6-Speed"
+        Transmisi: "Manual, 6-Speed"
     },
     //2
     "Suzuki NEX_II": {
@@ -98,7 +98,7 @@ const productSpecs = {
         pajak: "Hidup",
         cc: "113cc",
         warna: "Biru Hitam",
-        Tranmisi: "Otomatis"
+        Transmisi: "Otomatis"
     },
     //3
     "Suzuki Satria F150 NEW": {
@@ -106,7 +106,7 @@ const productSpecs = {
         pajak: "Hidup",
         cc: "150 cc",
         warna: "Hitam Metalic",
-        Tranmisi: "Manual, 6-Speed"
+        Transmisi: "Manual, 6-Speed"
     },
     //4
     "Suzuki VSTROM 250 SX": {
@@ -114,7 +114,7 @@ const productSpecs = {
         pajak: "Hidup",
         cc: "250cc",
         warna: "Kuning",
-        Tranmisi: "Manual, 6-Speed"
+        Transmisi: "Manual, 6-Speed"
     },
     //5
     "Suzuki NEX CROSSOVER": {
@@ -122,7 +122,7 @@ const productSpecs = {
         pajak: "Hidup",
         cc: "113cc",
         warna: "Biru Hitam",
-        Tranmisi: "Otomatis"
+        Transmisi: "Otomatis"
     },
 
     //Spesifikasi Vespa
@@ -132,7 +132,7 @@ const productSpecs = {
         pajak: "Hidup",
         cc: "150cc",
         warna: "Kuning",
-        Tranmisi: "Otomatis"
+        Transmisi: "Otomatis"
     },
     //2
     "Vespa Sprint S 150 ABS": {
@@ -140,7 +140,7 @@ const productSpecs = {
         pajak: "Hidup",
         cc: "113cc",
         warna: "Biru",
-        Tranmisi: "Otomatis"
+        Transmisi: "Otomatis"
     },
     //3
     "Vespa GTS CLASSIC 150 ABS": {
@@ -148,7 +148,7 @@ const productSpecs = {
         pajak: "Hidup",
         cc: "150 cc",
         warna: "Hitam Vulacano",
-        Tranmisi: "Otomatis"
+        Transmisi: "Otomatis"
     },
     //4
     "Vespa GTS Super Tech 300": {
@@ -156,7 +156,7 @@ const productSpecs = {
         pajak: "Hidup",
         cc: "300cc",
         warna: "Grey Mett",
-        Tranmisi: "Otomatis"
+        Transmisi: "Otomatis"
     },
     //5
     "Vespa Primavera 150 ABS": {
@@ -164,7 +164,7 @@ const productSpecs = {
         pajak: "Hidup",
         cc: "150cc",
         warna: "Green Amabile",
-        Tranmisi: "Otomatis"
+        Transmisi: "Otomatis"
     },
 
 
@@ -175,7 +175,7 @@ const productSpecs = {
         pajak: "Hidup",
         cc: "250cc",
         warna: "Hijau",
-        Tranmisi: "Manual, 6-Speed"
+        Transmisi: "Manual, 6-Speed"
     },
     //2
     "Kawasaki KLX230R S": {
@@ -183,7 +183,7 @@ const productSpecs = {
         pajak: "Hidup",
         cc: "230cc",
         warna: "Hijau",
-        Tranmisi: "Manual, 6-Speed"
+        Transmisi: "Manual, 6-Speed"
     },
     //3
     "Kawasaki W175R": {
@@ -191,7 +191,7 @@ const productSpecs = {
         pajak: "Hidup",
         cc: "177cc",
         warna: "Kuning",
-        Tranmisi: "Manual, 5-Speed"
+        Transmisi: "Manual, 5-Speed"
     },
     //4
     "Kawasaki NINJA H2": {
@@ -199,7 +199,7 @@ const productSpecs = {
         pajak: "Hidup",
         cc: "1000cc",
         warna: "Mirror Coated Spark Black",
-        Tranmisi: "Manual, 6-Speed"
+        Transmisi: "Manual, 6-Speed"
     },
     //5
     "Kawasaki VULCAN S": {
@@ -207,7 +207,7 @@ const productSpecs = {
         pajak: "Hidup",
         cc: "650cc",
         warna: "Hitam Metallic",
-        Tranmisi: "Manual, 6-Speed"
+        Transmisi: "Manual, 6-Speed"
     },
 
     //Spesifikasi KTM
@@ -217,7 +217,7 @@ const productSpecs = {
         pajak: "Hidup",
         cc: "200cc",
         warna: "Putih Metallic",
-        Tranmisi: "Manual, 6-Speed"
+        Transmisi: "Manual, 6-Speed"
     },
     //2
     "KTM RC 250": {
@@ -225,7 +225,7 @@ const productSpecs = {
         pajak: "Hidup",
         cc: "250cc",
         warna: "Orange Putih",
-        Tranmisi: "Manual, 6-Speed"
+        Transmisi: "Manual, 6-Speed"
     },
     //3
     "KTM RC 200": {
@@ -233,7 +233,7 @@ const productSpecs = {
         pajak: "Hidup",
         cc: "200cc",
         warna: "Hitam Putih",
-        Tranmisi: "Manual, 6-Speed"
+        Transmisi: "Manual, 6-Speed"
     },
     //4
     "KTM 450 SX-F": {
@@ -241,7 +241,7 @@ const productSpecs = {
         pajak: "Hidup",
         cc: "450cc",
         warna: "Orange",
-        Tranmisi: "Manual, 5-Speed"
+        Transmisi: "Manual, 5-Speed"
     },
     //5
     "KTM 250 SX-F": {
@@ -249,7 +249,7 @@ const productSpecs = {
         pajak: "Hidup",
         cc: "250cc",
         warna: "Orange (Decal Kuning Ungu)",
-        Tranmisi: "Manual, 5-Speed"
+        Transmisi: "Manual, 5-Speed"
     },
 
 };
@@ -296,6 +296,15 @@ function closeSpecs() {
 }
 
 function addToCart(product, price) {
+    if (!price || price <= 0) {
+        Swal.fire({
+            title: "Harga Tidak Valid",
+            text: "Harga produk tidak valid!",
+            icon: "error",
+            confirmButtonText: "OK"
+        });
+        return;
+    }
     cart.push({ product, price });
     Swal.fire({
         title: "Berhasil!",
@@ -319,7 +328,8 @@ function renderCart() {
     let totalPrice = 0;
 
     cart.forEach((item, index) => {
-        cartHTML += `<div>${item.product} - Rp${item.price.toLocaleString()} <button onclick="removeFromCart(${index})">Hapus</button></div>`;
+        cartHTML += `<div>${item.product} - Rp${item.price.toLocaleString()}
+        <button onclick="removeFromCart(${index})">Hapus</button></div>`;
         totalPrice += item.price;
     });
 
@@ -369,13 +379,23 @@ function checkout() {
     });
     cart = [];
     renderCart();
+
+    if (!specs) {
+        Swal.fire({
+            title: "Error",
+            text: "Produk tidak ditemukan!",
+            icon: "error",
+            confirmButtonText: "OK"
+        });
+        return;
+    }
 }
 
 function filterProducts(category) {
     const allProducts = document.querySelectorAll('.product');
     allProducts.forEach(product => {
         if (category === 'all' || product.classList.contains(category)) {
-            product.style.display = 'inline-block';
+            product.style.display = 'block';
         } else {
             product.style.display = 'none';
         }
@@ -384,4 +404,14 @@ function filterProducts(category) {
 
 function closeCart() {
     document.getElementById("cart").style.display = "none";
+}
+
+function saveCart() {
+    localStorage.setItem('cart', JSON.stringify(cart));
+}
+
+function loadCart() {
+    const savedCart = localStorage.getItem('cart');
+    cart = savedCart ? JSON.parse(savedCart) : [];
+    renderCart();
 }
